@@ -18,13 +18,50 @@ if(isset($_POST['btn-save']))
  
 }
 ?>
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>CRUD Operations With PHP and MySql - By Cleartuts</title>
-<link rel="stylesheet" href="style.css" type="text/css" />
-</head>
-<body>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>My second page </title>
+        <style>
+        body{
+            background-image :url("space.jpeg");
+				background-color : green ;
+			background-position: left top;
+			background-attachment: fixed:
+			 
+        }    
+        p{
+		 background : black; 
+            color :rgb(255, 152, 22);
+        }
+		li{
+		 background : black; 
+			color : rgb(255, 152, 22);
+		}
+        h2{
+		 background : black; 
+           
+			color : rgb(151, 0, 154);
+        }
+        </style>
+        
+        
+        
+    </head>
+    <body>
+        <h2>Shradheya Shrestha</h2>
+    
+    <ul>
+        <li>student number : 2014-300045</li>
+        <li>3rd year</li>
+        <li>course:Bs computer science</li>
+    </ul>
+    
+ <br /> <p style="color:white; font-family:comic sans ms">Hobbies:</p><br />
+		
+    
+  
 <center>
 
 <div id="header">

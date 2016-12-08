@@ -11,35 +11,55 @@ if(isset($_GET['delete_id']))
 // delete condition
 ?>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>CRUD Operations With PHP and MySql - By Cleartuts</title>
-<link rel="stylesheet" href="style.css" type="text/css" />
-<script type="text/javascript">
-function edt_id(id)
-{
- if(confirm('Sure to edit ?'))
- {
-  window.location.href='edit_data.php?edit_id='+id;
- }
-}
-function delete_id(id)
-{
- if(confirm('Sure to Delete ?'))
- {
-  window.location.href='index.php?delete_id='+id;
- }
-}
-</script>
-</head>
-<body>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>My second page </title>
+        <style>
+        body{
+            background-image :url("space.jpeg");
+				background-color : green ;
+			background-position: left top;
+			background-attachment: fixed:
+			 
+        }    
+        p{
+		 background : black; 
+            color :rgb(255, 152, 22);
+        }
+		li{
+		 background : black; 
+			color : rgb(255, 152, 22);
+		}
+        h2{
+		 background : black; 
+           
+			color : rgb(151, 0, 154);
+        }
+        </style>
+        
+        
+        
+    </head>
+    <body>
+        <h2>Shradheya Shrestha</h2>
+    
+    <ul>
+        <li>student number : 2014-300045</li>
+        <li>3rd year</li>
+        <li>course:Bs computer science</li>
+    </ul>
+    
+ <br /> <p style="color:white; font-family:comic sans ms">Hobbies:</p><br />
+		
+    
+  
 <center>
 
 <div id="header">
  <div id="content">
-    <label>CRUD Operations With PHP and MySql - <a href="http://cleartuts.blogspot.com" target="_blank">By Cleartuts</a></label>
+    
     </div>
 </div>
 
