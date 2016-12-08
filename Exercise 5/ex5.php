@@ -51,6 +51,10 @@ if(isset($_POST['btn-save']))
  $first_name = $_POST['first_name'];
  $last_name = $_POST['last_name'];
  $city_name = $_POST['city_name'];
+ $email = $_POST['email']
+ $Nickname = $_POST['Nickname']
+ $Cellphone = $_POST['Cellphone']
+ $comment = $_POST['comment']
  // variables for input data
  
  // sql query for inserting data into database
@@ -72,6 +76,11 @@ $sql_query="SELECT * FROM users";
         <td><?php echo $row[1]; ?></td>
         <td><?php echo $row[2]; ?></td>
         <td><?php echo $row[3]; ?></td>
+		<td><?php echo $row[4]; ?></td>
+		<td><?php echo $row[5]; ?></td>
+		<td><?php echo $row[6]; ?></td>
+		<td><?php echo $row[7]; ?></td>
+		
   <td align="center"><a href="javascript:edt_id('<?php echo $row[0]; ?>')"><img src="b_edit.png" align="EDIT" /></a></td>
         <td align="center"><a href="javascript:delete_id('<?php echo $row[0]; ?>')"><img src="b_drop.png" align="DELETE" /></a></td>
         </tr>
