@@ -51,10 +51,10 @@ if(isset($_POST['btn-save']))
  $first_name = $_POST['first_name'];
  $last_name = $_POST['last_name'];
  $city_name = $_POST['city_name'];
- $email = $_POST['email']
- $Nickname = $_POST['Nickname']
- $Cellphone = $_POST['Cellphone']
- $comment = $_POST['comment']
+ $email = $_POST['email'];
+ $Nickname = $_POST['Nickname'];
+ $Cellphone = $_POST['Cellphone'];
+ $comment = $_POST['comment'];
  // variables for input data
  
  // sql query for inserting data into database
