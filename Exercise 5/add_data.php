@@ -90,7 +90,7 @@ $first_name = $_POST['first_name'];
     <td><input type="text" name="city_name" placeholder="Address" /></td>
     </tr>
     <tr>
-	<td><input type="text" name="Email_Address" placeholder="Email Address" required /></td>
+	<td><input type="text" name="email" placeholder="Email Address" required /></td>
     </tr>
     <tr>
 	<td><input type="text" name="Nickname" placeholder="Nickname" /></td>
