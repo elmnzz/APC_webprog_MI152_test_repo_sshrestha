@@ -7,15 +7,15 @@ if(isset($_POST['btn-save']))
 $first_name = $_POST['first_name'];
  $last_name = $_POST['last_name'];
  $city_name = $_POST['city_name'];
- $email = $_POST['email']
- $Nickname = $_POST['Nickname']
- $Cellphone = $_POST['Cellphone']
- $comment = $_POST['comment']
+ $email = $_POST['email'];
+ $Nickname = $_POST['Nickname'];
+ $Cellphone = $_POST['Cellphone'];
+ $comment = $_POST['comment'];
  // variables for input data
  
  // sql query for inserting data into database
  
-        $sql_query = "INSERT INTO users(first_name,last_name,user_city) VALUES('$first_name','$last_name','$city_name')";
+        $sql_query = "INSERT INTO users(first_name,last_name,user_city,email,Nickname,Cellphone,comment) VALUES('$first_name','$last_name','$city_name','$email','$Nickname','$Cellphone','$comment')";
  mysqli_query($con,$sql_query);
         
         // sql query for inserting data into database
@@ -91,6 +91,9 @@ $first_name = $_POST['first_name'];
     </tr>
     <tr>
 	<td><input type="text" name="Email_Address" placeholder="Email Address" required /></td>
+    </tr>
+    <tr>
+	<td><input type="text" name="Nickname" placeholder="Nickname" /></td>
     </tr>
     <tr>
 	<td><input type="text" name="Cellphone" placeholder="Cellphone Number" required /></td>
