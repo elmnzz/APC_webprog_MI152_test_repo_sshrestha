@@ -51,7 +51,7 @@ if(isset($_GET['delete_id']))
         <li>course:Bs computer science</li>
     </ul>
     
- <br /> <p style="color:white; font-family:comic sans ms">Hobbies:</p><br />
+ <br /> <p style="color:white; font-family:comic sans ms">Visitors Info...</p><br />
 		
     
   
