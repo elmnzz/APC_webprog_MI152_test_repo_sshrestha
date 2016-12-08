@@ -12,10 +12,7 @@ if(isset($_POST['btn-update']))
  $first_name = $_POST['first_name'];
  $last_name = $_POST['last_name'];
  $city_name = $_POST['city_name'];
-  $email = $_POST['email'];
- $Nickname = $_POST['Nickname'];
- $Cellphone = $_POST['Cellphone'];
- $comment = $_POST['comment'];
+
  // variables for input data
 
  // sql query for update data into database
@@ -47,19 +44,53 @@ if(isset($_POST['btn-cancel']))
  header("Location: index.php");
 }
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>CRUD Operations With PHP and MySql - By Cleartuts</title>
-<link rel="stylesheet" href="style.css" type="text/css" />
-</head>
-<body>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>My second page </title>
+        <style>
+        body{
+            background-image :url("space.jpeg");
+				background-color : green ;
+			background-position: left top;
+			background-attachment: fixed:
+			 
+        }    
+        p{
+		 background : black; 
+            color :rgb(255, 152, 22);
+        }
+		li{
+		 background : black; 
+			color : rgb(255, 152, 22);
+		}
+        h2{
+		 background : black; 
+           
+			color : rgb(151, 0, 154);
+        }
+        </style>
+        
+        
+        
+    </head>
+    <body>
+        <h2>Shradheya Shrestha</h2>
+    
+    <ul>
+        <li>student number : 2014-300045</li>
+        <li>3rd year</li>
+        <li>course:Bs computer science</li>
+    </ul>
+    
+ <br /> <p style="color:white; font-family:comic sans ms">Visitors Info...</p><br />
+
 <center>
 
 <div id="header">
  <div id="content">
-    <label>CRUD Operations With PHP and MySql - By Cleartuts</label>
+    
     </div>
 </div>
 
@@ -74,8 +105,20 @@ if(isset($_POST['btn-cancel']))
     <td><input type="text" name="last_name" placeholder="Last Name" value="<?php echo $fetched_row['last_name']; ?>" required /></td>
     </tr>
     <tr>
-    <td><input type="text" name="city_name" placeholder="City" value="<?php echo $fetched_row['user_city']; ?>" required /></td>
+    <td><input type="text" name="address" placeholder="address" value="<?php echo $fetched_row['user_city']; ?>"/></td>
     </tr>
+	 <tr>
+    <td><input type="text" name="email_address" placeholder="email" value="<?php echo $fetched_row['email']; ?>" required /></td>
+    </tr>
+	 <tr>
+    <td><input type="text" name="nickname" placeholder="nickname" value="<?php echo $fetched_row['Nickname']; ?>"/></td>
+    </tr>
+	 <tr>
+    <td><input type="text" name="cellphone" placeholder="cellphone" value="<?php echo $fetched_row['Cellphone']; ?>" required /></td>
+    </tr>
+	 <tr>
+    <td><input type="text" name="comment" placeholder="Comment" value="<?php echo $fetched_row['comment']; ?>"/></td>
+    </tr>`
     <tr>
     <td>
     <button type="submit" name="btn-update"><strong>UPDATE</strong></button>
