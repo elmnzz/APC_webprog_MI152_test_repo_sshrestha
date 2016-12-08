@@ -4,9 +4,13 @@ include_once 'dbconfig.php';
 if(isset($_POST['btn-save']))
 {
  // variables for input data
- $first_name = $_POST['first_name'];
+$first_name = $_POST['first_name'];
  $last_name = $_POST['last_name'];
  $city_name = $_POST['city_name'];
+ $email = $_POST['email']
+ $Nickname = $_POST['Nickname']
+ $Cellphone = $_POST['Cellphone']
+ $comment = $_POST['comment']
  // variables for input data
  
  // sql query for inserting data into database
@@ -66,7 +70,7 @@ if(isset($_POST['btn-save']))
 
 <div id="header">
  <div id="content">
-    <label>CRUD Operations With PHP and MySql - By Cleartuts</label>
+    
     </div>
 </div>
 <div id="body">
@@ -83,16 +87,16 @@ if(isset($_POST['btn-save']))
     <td><input type="text" name="last_name" placeholder="Last Name" required /></td>
     </tr>
     <tr>
-    <td><input type="text" name="city_name" placeholder="City" /></td>
+    <td><input type="text" name="city_name" placeholder="Address" /></td>
     </tr>
     <tr>
-	<td><input type="text" name="Email_Address" placeholder="City" required /></td>
+	<td><input type="text" name="Email_Address" placeholder="Email Address" required /></td>
     </tr>
     <tr>
-	<td><input type="text" name="Cellphone" placeholder="City" required /></td>
+	<td><input type="text" name="Cellphone" placeholder="Cellphone Number" required /></td>
     </tr>
     <tr>
-	<td><input type="text" name="comment" placeholder="City" /></td>
+	<td><input type="text" name="comment" placeholder="Comment" /></td>
     </tr>
     <tr>
     <td><button type="submit" name="btn-save"><strong>SAVE</strong></button></td>
