@@ -29,7 +29,7 @@ $first_name = $_POST['first_name'];
         <title>My second page </title>
         <style>
         body{
-            background-image :url("space.jpeg");
+            background-image :url("space2.jpeg");
 				background-color : green ;
 			background-position: left top;
 			background-attachment: fixed:
