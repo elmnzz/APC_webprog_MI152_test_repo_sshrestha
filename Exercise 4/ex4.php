@@ -38,7 +38,7 @@
         <li>course:Bs computer science</li>
     </ul>
     
- <br /> <p style="color:white; font-family:comic sans ms">Hobbies:</p><br />
+ <br /> <p style="color:white; font-family:comic sans ms">Fourm:</p><br />
 		
     
   
@@ -100,7 +100,7 @@ function test_input($data) {
 }
 ?>
 
-<h2>PHP Form Validation Example</h2>
+<h2>Please enter the following</h2>
 <p><span class="error">* required field.</span></p>
 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
   Name: <input type="text" name="name" value="<?php echo $name;?>">
