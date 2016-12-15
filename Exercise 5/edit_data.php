@@ -108,16 +108,16 @@ if(isset($_POST['btn-cancel']))
     <td><input type="text" name="last_name" placeholder="Last Name" value="<?php echo $fetched_row['last_name']; ?>" required /></td>
     </tr>
     <tr>
-    <td><input type="text" name="address" placeholder="address" value="<?php echo $fetched_row['user_city']; ?>"/></td>
+    <td><input type="text" name="city_name" placeholder="address" value="<?php echo $fetched_row['user_city']; ?>"/></td>
     </tr>
 	 <tr>
-    <td><input type="text" name="email_address" placeholder="email" value="<?php echo $fetched_row['email']; ?>" required /></td>
+    <td><input type="text" name="email" placeholder="email" value="<?php echo $fetched_row['email']; ?>" required /></td>
     </tr>
 	 <tr>
-    <td><input type="text" name="nickname" placeholder="nickname" value="<?php echo $fetched_row['Nickname']; ?>"/></td>
+    <td><input type="text" name="Nickname" placeholder="nickname" value="<?php echo $fetched_row['Nickname']; ?>"/></td>
     </tr>
 	 <tr>
-    <td><input type="text" name="cellphone" placeholder="cellphone" value="<?php echo $fetched_row['Cellphone']; ?>" required /></td>
+    <td><input type="text" name="Cellphone" placeholder="cellphone" value="<?php echo $fetched_row['Cellphone']; ?>" required /></td>
     </tr>
 	 <tr>
     <td><input type="text" name="comment" placeholder="Comment" value="<?php echo $fetched_row['comment']; ?>"/></td>
